@@ -1,0 +1,355 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 254, 255);
+    /* overflow: hidden; */
+}
+
+
+
+
+
+/* container */
+.container {
+    /* border: 2px solid #000; */
+    margin: 5px;
+ 
+
+
+
+}
+
+/* header_div*/
+.header_div{
+    width: 100%;
+    margin: 0 auto;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+/* badge */
+.badge{
+   width: 150px;
+   aspect-ratio: 1; 
+/* border: 2px solid; */
+overflow: hidden;
+}
+.badge img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+
+/* heading_div */
+.heading_div{
+    width: 74%;
+    text-align: center;
+    /* border: 2px solid; */
+    line-height: 40px;
+}
+/* TITLE */
+.heading_div .title_div h4{
+    font-size: 30px;
+}
+/* LOCATION*/
+.location h4{
+font-weight: 200;
+}
+
+ /* tel */
+.tel{
+    font-weight: 200;
+}
+/* taable title */
+.title_of_table{
+    margin-top: 40px;
+    font-weight: bold;
+}
+/* student_image */
+.student_image{
+    position: relative;
+    width: 150px;
+    aspect-ratio: 1;
+overflow: hidden;
+cursor: pointer;
+}
+.student_image img{
+    width:100%;
+    object-fit: cover;
+
+}
+
+/*file */
+#file{
+    display: none;
+
+}
+/* label */
+#label{
+    position: absolute;
+    background:rgba(0,0,0,0.3);
+    bottom: -13%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+/* heading */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+
+    margin: 40px 0;
+
+}
+
+
+/* upper form */
+.upper_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+    flex-direction: column;
+    width:900px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 auto;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: 2px solid #0656b1;
+}
+
+/*  name and sex*/
+.name_and_sex {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* student name and sex */
+.student_name {
+    display: flex;
+align-items: center;
+
+column-gap: 10px;
+    width: 60%;
+  
+}
+/* stundets input */
+
+#student_name_input{
+width: 30%;
+font-size: 20px;
+
+
+}
+/* stundent sex */
+.Student_sex{
+   margin-right: 50px;
+    display: flex;
+    column-gap: 10px;
+}
+#Student_sex_input{
+    width: 40px;
+}
+
+/* term year class */
+#t_y_c {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.class{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+#term{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+#year{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+#year_input{
+    width: 80px;
+}
+/*house promotional comment */
+.house_and_pm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.house{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.promotional_c{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+/* table */
+/* table heading */
+th {
+    padding: 10px;
+    background: #0656b1;
+    color: #eff5fb;
+
+}
+
+table {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+
+/* making columns for table */
+table,
+td,
+th {
+    border: 2px solid #2e5fc2;
+    border-collapse: collapse;
+}
+
+/* subject expand cells */
+
+.S_N {
+    width: 200px;
+    cursor: default;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+
+input {
+    cursor: text;
+    width: 30px;
+    padding: 2px;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+table>input {}
+
+
+/* period of year */
+#S_P input {
+    border-bottom: 2px solid #000;
+    padding: 6px 2px;
+
+
+
+}
+
+input,
+input:focus {
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+#period {
+    width: 100vw;
+    background: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#period li {
+    list-style: none;
+
+    border: 2px solid;
+    width: 60px;
+}
+
+#period>input {
+    width: 200px;
+
+
+}
+
+.form {
+    border: 2px solid;
+}
+
+
+/* label and input interaction */
+
+
+li input {
+    position: relative;
+
+}
+
+
+
+input:placeholder-shown,
+input:focus label {
+
+    top: -20%;
+}
+
+/* TOTAL GRADE POINTS AND COMMENT */
+#total_grade_l{
+    text-align: center;
+}
+
+/* SAVING AND CLEAR BUTTON */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    /* border: 5px solid red ; */
+    margin-top: 90px;
+    margin-left: -10px;
+
+}
+
+button {
+    border: 2px solid rgb(5, 11, 196);
+    height: 50px;
+    width: 90px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background: #f8f8f8;
+    transition: all 1s;
+
+
+
+}
+
+#next {
+    visibility: hidden;
+}
+
+.button:hover {
+    background: #2f2e2e;
+}

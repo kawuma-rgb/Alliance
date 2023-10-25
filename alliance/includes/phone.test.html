@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form action="" method="post"> -->
+        <input type="tel" name="tel" id="tel">
+        
+        <p class="error"></p>
+    <!-- </form> -->
+    <script>
+        function validate(phone) {
+            const tel = document.querySelector('#tel');
+            var regex =/ ^\+[0-9]{1,3}\.[0-9]{4,14}(?:x.+)?$ /;
+tel.addEventListener('input',()=>{
+
+    if (regex.test(phone)) {
+        // Valid international phone number
+        error.innerHTML="true";
+    }else if(phone==0){
+        error.innerHTML="";
+        
+    }
+    
+    else {
+        // Invalid international phone number
+        error.innerHTML="false";
+    }
+})
+}
+let telno = tel.innerHTML;
+const error = document.querySelector('.error');
+validate(telno);
+
+    </script>
+    
+</body>
+</html>

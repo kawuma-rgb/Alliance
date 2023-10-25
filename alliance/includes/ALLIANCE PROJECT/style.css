@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* STUDENTS REGISTRATION-------------------------- */
+.main-div-student{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+    height: 1000px;
+    width: 600px;
+}
+.stud_photo{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    border: 1px solid rgb(129, 118, 120);
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+
+}
+.stud_photo>img{
+    height: 90px;
+    width: 130px;
+}
+.stud_photo>button{
+width: 130px;
+margin-top: -5px;
+cursor: pointer;
+}
+/* input Section--_------------ */
+.main-div-student>input{
+    height: 40px;
+    width: 500px;
+    margin:10px auto;
+    outline: none;
+    border: 1px solid black;
+
+}
+/* houses div */
+.houses{
+    display: flex;
+    /* border: 5px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    
+}
+.houses>label{
+    /* font-weight: bold; */
+    background-color: blue;
+    color: #fff;
+    width: 70px;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+    
+    
+}
+.houses>select{
+    width: 50%;
+    border-radius: 0px;
+    border: 1px solid #000;
+    height: 30px;
+    text-align: center;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    border-radius:0px ;
+    background-color: blue;
+    color: aliceblue;
+    border: 0px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* TEACHERS REGISTRATION-------------------------- */
+.main-div-teacher{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid blue;
+    height: 700px;
+    width: 600px;
+}
+.teacher_photo{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    border: 1px solid rgb(129, 118, 120);
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+
+}
+.teacher_photo>img{
+    height: 90px;
+    width: 130px;
+}
+.teacher_photo>button{
+width: 130px;
+margin-top: -5px;
+cursor: pointer;
+}
+/* input Section--_------------ */
+.main-div-teacher>input{
+    height: 40px;
+    width: 500px;
+    margin:10px auto;
+    outline: none;
+    border: 1px solid black;
+
+}
+
+
+button{
+    height: 40px;
+    width: 100px;
+    border-radius:0px ;
+    background-color: blue;
+    color: aliceblue;
+    border: 0px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* ADMIN REGISTRATION-------------------------- */
+.main-div-admin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #199f6e;
+    height: 500px;
+    width: 600px;
+}
+.admin_photo{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    border: 1px solid rgb(129, 118, 120);
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+
+}
+.admin_photo>img{
+    height: 90px;
+    width: 130px;
+}
+.admin_photo>button{
+width: 130px;
+margin-top: -5px;
+cursor: pointer;
+}
+/* input Section--_------------ */
+.main-div-admin>input{
+    height: 40px;
+    width: 500px;
+    margin:10px auto;
+    outline: none;
+    border: 1px solid black;
+
+}
+
+
+button{
+    height: 40px;
+    width: 100px;
+    border-radius:0px ;
+    background-color: #036ec0;
+    color: aliceblue;
+    border: 0px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* SUBJECT REGISTRATION-------------------------- */
+.main-div-subject{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+    height: 500px;
+    width: 600px;
+}
+
+/* input Section--_------------ */
+.main-div-subject>input{
+    height: 40px;
+    width: 500px;
+    margin:10px auto;
+    outline: none;
+    border: 1px solid #0582ffc9;
+
+}
+
+
+button{
+    height: 40px;
+    width: 100px;
+    border-radius:0px ;
+    background-color: blue;
+    color: aliceblue;
+    border: 0px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

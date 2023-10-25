@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALISCO GRADING SYSTEM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- ALLIANCE STANDARD SECONDARY SCHOOL GRADING SYSTEM -->
+    <!-- form -->
+    <div class="container">
+        <!-- ------------------------------------------------ -->
+        <!-- header_div-->
+        <div class="header_div">
+            <!-- ************************************** -->
+            <!-- badge -->
+            <div class="badge">
+                <img src="./eclipse-alt.png" alt="">
+            </div>
+            
+            <!-- **************************************************** -->
+
+            <!-- location -->
+            <div class="heading_div">
+                <!-- TILTE -->
+                <div class="title_div">
+                    <h4>ALLIANCE STANDARD SECONDARY SCHOOL </h4>
+                </div>
+                <!-- location -->
+                <div class="location">
+                    <h4>Ssekabaka-Kintu Road, Lungujja-kitunzi.PO BOX 14295 Mengo</h4>
+                </div>
+                <!-- TELL -->
+                <div class="tel">0782403202, 0775758186, 0712587672, 0751466902
+                </div>
+                <div class="title_of_table">END OF TERM REPORT CARD</div>
+            </div>
+
+            <!-- **************************************************** -->
+            <!-- student image -->
+            <div class="student_image" id="profile_img">
+                <img src="./chiild.jpg" alt="" id="pic">
+                <label for="file" id="label">upload student image</label>
+                <input type="file" name="file" id="file">
+            </div>
+
+        </div>
+        <!-- ----------------------------------------------------- -->
+        <!-- UPPER FORM----------------------------------- -->
+        <div class="upper_form">
+            <!-- studentss name -->
+            <!-- *********************** -->
+            <div class="name_and_sex">
+
+                <div class="student_name">
+                    <label for="student_name_input">Name of Student:</label>
+                    <input type="text" placeholder="student's name" id="student_name_input">
+                </div>
+
+                <!-- stundents sex -->
+
+                <div class="Student_sex">
+
+                    <label for="Student_sex_input" id="Student_sex_label">Sex:</label>
+                    <input type="text" placeholder="M/F" id="Student_sex_input">
+                </div>
+
+            </div>
+            <!-- description of year, term , class -->
+            <!-- *********************** -->
+            <div id="t_y_c">
+                <!-- class -->
+                <div class="class">
+                    <label for="class">class:</label>
+                    <input type="text" placeholder="class" name="class">
+                </div>
+                <!-- term -->
+                <div id="term">
+                    <label for="term">term:</label>
+                    <input type="text" placeholder="term" name="year" id="term_input">
+                </div>
+                <!-- year -->
+                <div id="year">
+
+                    <label for="year">year:</label>
+                    <input type="text" placeholder="year" name="year" id="year_input">
+                </div>
+
+            </div>
+            <!-- *********************** -->
+            <!-- house promotional comment -->
+            <div class="house_and_pm">
+
+                <div class="house">
+                    <label for="house">house:</label>
+                    <input type="text" placeholder="house" name="house" id="house">
+                </div>
+
+                <div class="promotional_c">
+                    <input type="text" placeholder="promoted to" name="promotional_c" id="promotional_c">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- START OF  LARGE FORM-------------------------->
+        <form action="" id="form1">
+            <table>
+                <tr>
+                    <td rowspan="2" style="font-weight: 600; text-align: center;text-transform: uppercase;">subject</td>
+                    <td colspan="10" style="padding: 10px;">End of term Progressive assessment Score Indentifiers
+
+                    </td>
+                </tr>
+                <tr>
+
+
+                    <th>A1</th>
+                    <th>A2</th>
+                    <th>A3</th>
+                    <th>A4</th>
+                    <th>A5</th>
+                    <th>Tt pts</th>
+                    <th>LOA</th>
+                    <th>Descriptor</th>
+                    <th>Out of 100</th>
+
+                    <th>TR</th>
+
+                </tr>
+                <tr>
+                    <td class="S_N">ENGLISH</td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A1" class="eng"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A2" class="eng"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A3" class="eng"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A4" class="eng"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A5" class="eng"></td>
+                    <td><input type="text" class="engt" placeholder="0.0"></td>
+                    <td><input type="text" class="engloa loa" placeholder="0.0" value="0"></td>
+                    <td><input type="text" class="engdes" placeholder="0.0"></td>
+                    <td><input type="text" class="eng_out_of_100" placeholder="0.0" value="0"></td>
+
+                    <td><input maxlength="3" placeholder="init" type="text" name="tr"></td>
+
+                </tr>
+                <tr>
+                    <td class="S_N">MATHEMATICS</td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A1" class="math"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A2" class="math"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A3" class="math"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A4" class="math"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A5" class="math"></td>
+                    <!-- <td><input type="text" class="mathl" placeholder="0.0"></td> -->
+                    <td><input type="text" class="matht" placeholder="0.0"></td>
+                    <td><input type="text" class="mathloa loa" placeholder="0.0" value="0"></td>
+                    <td><input type="text" class="mathdes" placeholder="0.0"></td>
+                    <td><input type="text" class="math_out_of_100" placeholder="0.0"></td>
+                    <td><input maxlength="3" placeholder="init" type="text" name="tr"></td>
+
+                </tr>
+                <tr>
+                    <td class="S_N">HISTORY & POLITICAL EDUCATION</td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A1" class="hist"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A2" class="hist"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A3" class="hist"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A4" class="hist"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A5" class="hist"></td>
+                    <td><input type="text" class="histt" placeholder="0.0"></td>
+                    <td><input type="text" class="histloa loa" placeholder="0.0"></td>
+                    <td><input type="text" class="histdes" placeholder="0.0"></td>
+                    <td><input type="text" class="hist_out_of_100" placeholder="100"></td>
+                    <td><input maxlength="3" placeholder="init" type="text" name="tr"></td>
+
+                </tr>
+                <tr>
+                    <td class="S_N">GEOGRAPHY</td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A1" class="geo"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A2" class="geo"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A3" class="geo"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A4" class="geo"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A5" class="geo"></td>
+                    <td><input type="text" class="geot" placeholder="0.0"></td>
+                    <td><input type="text" class="geoloa loa" placeholder="0.0"></td>
+                    <td><input type="text" class="geodes" placeholder="0.0"></td>
+                    <td><input type="text" class="geo_out_of_100" placeholder="100"></td>
+                    <td><input maxlength="3" placeholder="init" type="text" name="tr"></td>
+
+                </tr>
+                <tr>
+                    <td class="S_N">PHYSICS</td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A1" class="phy"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A2" class="phy"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A3" class="phy"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A4" class="phy"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A5" class="phy"></td>
+                    <td><input type="text" class="phyt" placeholder="0.0"></td>
+                    <td><input type="text" class="phyloa loa" placeholder="0.0"></td>
+                    <td><input type="text" class="phydes" placeholder="0.0"></td>
+                    <td><input type="text" class="phy_out_of_100" placeholder="100"></td>
+                    <td><input maxlength="3" placeholder="init" type="text" name="tr"></td>
+
+                </tr>
+                <tr>
+                    <td class="S_N">CHEMISTRY</td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A1" class="chem"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A2" class="chem"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A3" class="chem"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A4" class="chem"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A5" class="chem"></td>
+                    <td><input type="text" class="chemt" placeholder="0.0"></td>
+                    <td><input type="text" class="chemloa loa" placeholder="0.0"></td>
+                    <td><input type="text" class="chemdes" placeholder="0.0"></td>
+                    <td><input type="text" class="chem_out_of_100" placeholder="100"></td>
+                    <td><input maxlength="3" placeholder="init" type="text" name="tr"></td>
+
+                </tr>
+                <tr>
+                    <td class="S_N">BIOLOGY</td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A1" class="bio"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A2" class="bio"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A3" class="bio"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A4" class="bio"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A5" class="bio"></td>
+                    <td><input type="text" class="biot" placeholder="0.0"></td>
+                    <td><input type="text" class="bioloa loa" placeholder="0.0"></td>
+                    <td><input type="text" class="biodes" placeholder="0.0"></td>
+                    <td><input type="text" class="bio_out_of_100" placeholder="100"></td>
+                    <td><input maxlength="3" placeholder="init" type="text" name="tr"></td>
+
+                </tr>
+                <tr>
+                    <td class="S_N">KISWAHILI</td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A1" class="kisw"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A2" class="kisw"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A3" class="kisw"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A4" class="kisw"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A5" class="kisw"></td>
+                    <td><input type="text" class="kiswt" placeholder="0.0"></td>
+                    <td><input type="text" class="kiswloa loa" placeholder="0.0"></td>
+                    <td><input type="text" class="kiswdes" placeholder="0.0"></td>
+                    <td><input type="text" class="kisw_out_of_100" placeholder="100"></td>
+                    <td><input maxlength="3" placeholder="init" type="text" name="tr"></td>
+
+                </tr>
+                <tr>
+                    <td class="S_N">PHYSICAL EDUCATION</td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A1" class="pe"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A2" class="pe"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A3" class="pe"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A4" class="pe"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A5" class="pe"></td>
+                    <td><input type="text" class="pet" placeholder="0.0"></td>
+                    <td><input type="text" class="peloa loa" placeholder="0.0"></td>
+                    <td><input type="text" class="pedes" placeholder="0.0"></td>
+                    <td><input type="text" class="pe_out_of_100" placeholder="100"></td>
+                    <td><input maxlength="3" placeholder="init" type="text" name="tr"></td>
+
+                </tr>
+                <tr>
+                    <td class="S_N">ENTREPRENUERSHIP</td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A1" class="ent"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A2" class="ent"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A3" class="ent"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A4" class="ent"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A5" class="ent"></td>
+                    <td><input type="text" class="entt" placeholder="0.0"></td>
+                    <td><input type="text" class="entloa loa" placeholder="0.0"></td>
+                    <td><input type="text" class="entdes" placeholder="0.0"></td>
+                    <td><input type="text" class="ent_out_of_100" placeholder="100"></td>
+                    <td><input maxlength="3" placeholder="init" type="text" name="tr"></td>
+
+                </tr>
+                <tr>
+                    <td class="S_N">RELIGIOUS EDUCATION</td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A1" class="re"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A2" class="re"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A3" class="re"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A4" class="re"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A5" class="re"></td>
+                    <td><input type="text" class="ret" placeholder="0.0"></td>
+                    <td><input type="text" class="reloa loa" placeholder="0.0"></td>
+                    <td><input type="text" class="redes" placeholder="0.0"></td>
+                    <td><input type="text" class="re_out_of_100" placeholder="100"></td>
+                    <td><input maxlength="3" placeholder="init" type="text" name="tr"></td>
+
+                </tr>
+                <tr>
+                    <td class="S_N">FINE ART</td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A1" class="fart"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A2" class="fart"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A3" class="fart"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A4" class="fart"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A5" class="fart"></td>
+                    <td><input type="text" class="fartt" placeholder="0.0"></td>
+                    <td><input type="text" class="fartloa loa" placeholder="0.0"></td>
+                    <td><input type="text" class="fartdes" placeholder="0.0"></td>
+                    <td><input type="text" class="fart_out_of_100" placeholder="100"></td>
+                    <td><input maxlength="3" placeholder="init" type="text" name="tr"></td>
+
+                </tr>
+                <tr>
+                    <td class="S_N">ICT</td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A1" class="ict"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A2" class="ict"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A3" class="ict"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A4" class="ict"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A5" class="ict"></td>
+                    <td><input type="text" class="ictt" placeholder="0.0"></td>
+                    <td><input type="text" class="ictloa loa" placeholder="0.0"></td>
+                    <td><input type="text" class="ictdes" placeholder="0.0"></td>
+                    <td><input type="text" class="ict_out_of_100" placeholder="100"></td>
+
+                    <td><input maxlength="3" placeholder="init" type="text" name="tr"></td>
+
+                </tr>
+                <tr>
+                    <td class="S_N">LITERATURE</td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A1" class="lit"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A2" class="lit"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A3" class="lit"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A4" class="lit"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A5" class="lit"></td>
+                    <td><input type="text" class="litt" placeholder="0.0"></td>
+                    <td><input type="text" class="litloa loa" placeholder="0.0"></td>
+                    <td><input type="text" class="litdes" placeholder="0.0"></td>
+                    <td><input type="text" class="lit_out_of_100" placeholder="100"></td>
+                    <td><input maxlength="3" placeholder="init" type="text" name="tr"></td>
+
+                </tr>
+                <tr>
+                    <td class="S_N">LUGANDA</td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A1" class="lug"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A2" class="lug"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A3" class="lug"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A4" class="lug"></td>
+                    <td><input maxlength="3" placeholder="0.0" type="text" name="A5" class="lug"></td>
+                    <td><input type="text" class="lugt" placeholder="0.0"></td>
+                    <td><input type="text" class="lugloa loa" placeholder="0.0"></td>
+                    <td><input type="text" class="lugdes" placeholder="0.0"></td>
+                    <td><input type="text" class="lug_out_of_100" placeholder="100"></td>
+                    <td><input maxlength="3" placeholder="init" type="text" name="tr"></td>
+
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <h4>Total score</h4>
+                    </td>
+                    <td colspan="3">
+                        <h4></h4>
+                    </td>
+                    <td colspan="2">
+                        <h4 id="total_grade_l">TT Avg and Comment</h4>
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+
+
+
+                </tr>
+
+
+
+            </table>
+            <div class="buttons">
+                <button id="save" type="button">Grade</button>
+                
+                <button id="next" type="button" onclick="window.print()">Print</button>
+                <button id="clear" type="reset" >clear</button>
+            </div>
+        </form>
+
+
+    </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
